@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.subtitle {
+   font-size: small;;
+   font-style: italic;    
+}
+
+.contact-info {
+   margin-top:15px;   
+}
+         
+main {
+align-items:center ;
+padding:20px ;    
+}
+
+.section {
+margin-bottom :40 px ;  
+border-bottom :1 px solid #ddd ;    
+padding-bottom :10 px ;     
+}
+         
+.job,
+.degree {
+ border-bottom :1 px solid #ddd ;
+ padding-bottom :10 px ;
+ margin-bottom :15 px ;
+}
+         
+footer {
+text-align:center ;
+font-size:.9em ;
+color:#777;  
+padding-top :.5em ;
+
+ }
