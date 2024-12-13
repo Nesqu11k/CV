@@ -1,46 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 20px;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px;
+     background-color: #4CAF50;
+     color: white;
+     text-align: center;
+     padding: 30px; /* Plus d'espace pour le titre */
 }
 
 .subtitle {
-   font-size: small;;
-   font-style: italic;    
+ font-size: larger;;
+ font-style: italic; 
+ margin-bottom :15 px ; 
 }
 
 .contact-info {
-   margin-top:15px;   
-}
-         
-main {
-align-items:center ;
-padding:20px ;    
+ margin-top :10 px ;
+ text-align:center ;
 }
 
-.section {
-margin-bottom :40 px ;  
-border-bottom :1 px solid #ddd ;    
-padding-bottom :10 px ;     
+main {
+ max-width::800px ; /* Largeur maximale pour la mise en page */
+ margin:auto ;   
+ padding :20 px ;
+ background-color:#fff ; /* Fond blanc pour la partie principale */
+ box-shadow :0 menu -5 px rgba(0 ,0 ,0 ,0.1) ;
+
+ border-radius :.5em ;
 }
-         
-.job,
-.degree {
- border-bottom :1 px solid #ddd ;
- padding-bottom :10 px ;
- margin-bottom :15 px ;
+  
+.objectives,
+.education {    
+ margin-bottom :20 px ;    
+ border-bottom :.5px solid #ddd;    
+ padding-bottom:.5em ;
 }
-         
-footer {
-text-align:center ;
-font-size:.9em ;
-color:#777;  
-padding-top :.5em ;
+   
+.degree {   
+ border-bottom :.5px solid #ddd;  
+ padding-bottom:.5em ;  
+ margin-bottom:.8em ;  
+}
+     
+.objectives-list {    
+ list-style-type:none; /* Enlève les puces des listes */      
+padding-left :0 ;
+
+} 
+  
+footer {     
+ background-color: #4CAF50;
+ text-align:center;     
+ font-size:.9em;     
+ color:#00000; 
+padding-top:.7em;    
+margin-top:max-height;
 
  }
